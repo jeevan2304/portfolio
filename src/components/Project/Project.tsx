@@ -26,7 +26,8 @@ export function Project() {
               <h3>HELPDESK - Ticket Management System</h3>
               <p> A comprehensive Ticket Management System built with Java Spring Boot and React to manage tickets, agents, and user roles efficiently. This system includes features for admins to assign tickets to agents, track ticket statuses, and manage tickets across various stages such as new, solved, and deleted. It supports both admin and agent roles and provides role-based data access and functionalities. </p>
             </div>
-            <footer> <ul className="tech-list"> <li>React-TS</li> <li>Spring Boot</li> <li>MySql</li> </ul> </footer>
+            <footer> <ul className="tech-list"> 
+              <li>React(TypeScript)</li> <li>Java(Spring Boot)</li> <li>MySql</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -139,9 +140,9 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>OpenCV</li>
-                <li>MediaPipe</li>
-                <li>scikit-learn</li>
+                <li>Kotlin</li>
+                <li>Jetpack Compose</li>
+              
               </ul>
             </footer>
           </div>
@@ -158,17 +159,16 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>VeloCityAI</h3>
+              <h3>MyWeather</h3>
               <p>
-                VelocityAI is a website that allows users to get instant answers to any question and generate stunning AI pictures using OpenAI's GPT-3 and DALL-E model.With VelocityAI, users can type in text-based prompts and receive a corresponding response.
+                VWeather app that displays real time data.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
-                <li>Typescript</li>
-                <li>Html</li>
-                <li>css</li>
+                <li>Kotlin</li>
+                <li>Xml</li>
+                
               </ul>
             </footer>
           </div>

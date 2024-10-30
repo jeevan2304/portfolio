@@ -22,7 +22,7 @@ export function Hero() {
           <h3>Full Stack Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">1 Years of Experience</p>
+          <p className="small-resume">1 Year of Experience</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -45,14 +45,14 @@ export function Hero() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          href="https://api.whatsapp.com/send/?phone=%2B9019048379&text=Hello+Uttam"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
+          href="https://t.me/UttamBg"
           target="_blank"
           rel="noreferrer"
         >
