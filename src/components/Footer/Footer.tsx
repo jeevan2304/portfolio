@@ -6,13 +6,13 @@ import whatsapp from '../../assets/whatsapp.svg'
 import telegram from '../../assets/telegram.svg'
 import instagramIcon from '../../assets/instagram.svg'
 // import discordIcon from '../../assets/discord.png'
-
+import leetcode from '../../assets/leetcode.png'
 export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-        <span>Uttam </span>
-        <span>B G</span>
+        <span>Jeevan</span>
+        <span> H G</span>
       </a>
       <div>
         <p>
@@ -22,27 +22,27 @@ export function Footer() {
       </div>
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/uttam-bg"
+          href="https://www.linkedin.com/in/jeevan-h-g-19b53229a/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/Uttambg"
+          href="https://github.com/jeevan2304"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B9019048379&text=Hello+Uttam"
+          href="https://leetcode.com/u/jeevanhg/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={whatsapp} alt="Whatsapp" />
+          <img src={leetcode} alt="leetcode" />
         </a>
-        <a
+        {/* <a
           href="https://t.me/UttamBg"
           target="_blank"
           rel="noreferrer"
@@ -55,7 +55,7 @@ export function Footer() {
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
-        </a>
+        </a> */}
       </div>
     </Container>
   )

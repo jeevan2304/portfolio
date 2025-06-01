@@ -13,9 +13,23 @@ import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 
+import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import java from "../../assets/Java.png";
+import mysqlIcon from "../../assets/mysql-icon.svg";
+import Jeevan from "../../assets/Jeevan.png";
+import dart from "../../assets/dart.png";
+import flutter from "../../assets/flutter.png";
+import kotlin from "../../assets/kotlin.png";
+import firebase from "../../assets/firebase.png";
+import postgracesql from "../../assets/postgracesql.png";
+import jupyter from "../../assets/jupyter.png";
+import python from "../../assets/python.png";
+import androidstudio from "../../assets/androidstudio.png";
+import intelliJ from "../../assets/intelliJ.png";
+import vscode from "../../assets/vscode.png";
+import postman from "../../assets/postman.png";
+import spring from "../../assets/spring.png";
 export function Main() {
   return (
     <Container>
@@ -149,32 +163,32 @@ export function Main() {
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": androidstudio,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": cssIcon,
+                  "src": intelliJ,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": wordpress,
+                  "src": postman,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": shopify,
+                  "src": vscode,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": htmlIcon,
+                  "src": java,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": jsIcon,
+                  "src": spring,
                   "width": 20,
                   "height": 20
                 },
@@ -184,7 +198,7 @@ export function Main() {
                 //   "height": 20
                 // },
                 {
-                  "src": nodeIcon,
+                  "src": firebase,
                   "width": 20,
                   "height": 20
                 },
@@ -194,12 +208,12 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": flutter,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": typescriptIcon,
+                  "src": dart,
                   "width": 20,
                   "height": 20
                 },
@@ -208,12 +222,7 @@ export function Main() {
                 //   "width": 20,
                 //   "height": 20
                 // },
-                {
-                  "src": vueIcon,
-                  "width": 20,
-                  "height": 20
-                },
-
+                
               ],
               "polygon": {
                 "sides": 5
