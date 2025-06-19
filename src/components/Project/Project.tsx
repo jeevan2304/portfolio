@@ -65,7 +65,7 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/jeevan2304/blogplatform.git" target="_blank" rel="noreferrer">
+                <a href="https://github.com/jeevan2304/TriplitApp.git" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
                 <a href="/" target="_blank" rel="noreferrer">
@@ -74,14 +74,15 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Blog Platform</h3>
-              <p>Developed a Blog Platform using React and Spring Boot, enabling users to create, edit, and manage blog posts. Implemented JWT-based authentication and a REST API for secure content management. Designed a responsive UI with Tailwind CSS for an optimized user experience</p>
+              <h3>Triplit app</h3>
+              <p>Built a travel app using Flutter and Dart, allowing users to create groups, chat, and split trip expenses. Integrated Firebase for authentication, real-time Firestore database, and a travel recommendation ML model built in Google Colab and deployed via Firebase. Future updates include a Spring Boot backend for enhanced functionality.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Java(Springboot)</li>
-                <li>PostgreSql</li>
-                <li>Javascript(React)</li>
+                <li>Dart(Flutter)</li>
+                <li>Firebase</li>
+                <li>backend-Springboot(on process)</li>
+                <li>ML models</li>
                 
               </ul>
             </footer>
